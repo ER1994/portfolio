@@ -1,0 +1,208 @@
+@import "../Animations/profileImage.scss";
+
+.home {
+  background-color: rgb(249, 244, 241);
+  margin: 114px 20px 20px 20px;
+  width: calc(100% - 40px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+
+  @media screen and (min-width: 900px) {
+    margin: 114px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 580px;
+    position: sticky;
+    top: 114px;
+    overflow: hidden;
+  }
+
+
+  .home__presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 40px;
+
+    @media screen and (min-width: 900px) {
+      gap: 2rem;
+    }
+
+    .home__presentation__main {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      gap: 2rem;
+      padding-top: 1rem;
+
+      @media screen and (min-width: 900px) {
+        flex-direction: row;
+        gap: 5rem;
+        align-items: flex-start;
+        padding-top: 20px;
+      }
+
+
+      .home__presentation__summary {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 50rem;
+
+        @media screen and (min-width: 900px) {
+          align-content: center;
+          text-align: left;
+          gap: 2rem;
+        }
+
+        h1 {
+          letter-spacing: 5px;
+          font-size: 2.5rem;
+          text-align: center;
+          margin: 0;
+
+          @media screen and (min-width: 600px) {
+            letter-spacing: 5px;
+            font-size: 3rem;
+            //text-align: center;
+          }
+
+          @media screen and (min-width: 900px) {
+            align-content: center;
+            //font-size: 4.4rem;
+            text-align: left;
+          }
+
+          .nobreak {
+            white-space: nowrap;
+          }
+        }
+
+        p {
+          font-size: 1.1rem;
+          text-align: center;
+
+          @media screen and (min-width: 600px) {
+            font-size: 1.2rem;
+            text-align: center;
+          }
+
+          @media screen and (min-width: 900px) {
+            //font-size: 1.5rem;
+            text-align: left;
+          }
+        }
+      }
+
+      .accounts {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+
+        @media screen and (min-width: 900px) {
+          justify-content: normal;
+        }
+
+        svg {
+          width: 1.2rem;
+          cursor: pointer;
+
+          @media screen and (min-width: 600px) {
+            width: 1.5rem;
+          }
+
+        }
+      }
+    }
+
+    .home__presentation__image {
+      width: 17rem;
+      height: 19rem;
+      background-size: cover;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      animation: morph 8s ease-in-out infinite;
+      border: 3px solid #2d2e32;
+      //justify-items: center;
+
+      @media screen and (min-width: 600px) {
+        width: 20rem;
+        height: 23rem;
+      }
+
+      @media screen and (min-width: 900px) {
+        width: 100%;
+        height: 27rem;
+      }
+    }
+  }
+
+  .home__presentation__tstack {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 900px) {
+      //font-size: 1.3rem;
+      letter-spacing: 0.2rem;
+      flex-direction: row;
+    }
+
+
+    p {
+      border-bottom: 2px solid black;
+      padding-bottom: 0.5rem;
+
+      @media screen and (min-width: 900px) {
+        border-bottom: none;
+        border-right: 2px solid black;
+        padding-right: 2rem;
+        padding-bottom: 0;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+      margin: 0;
+
+      @media screen and (min-width: 900px) {
+        padding: 0 1rem;
+      }
+
+      li {
+        cursor: pointer;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        width: 3rem;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f9f4f1;
+
+        @media screen and (min-width: 900px) {
+          width: 3rem;
+          height: 3rem;
+        }
+
+        svg {
+          width: 2rem;
+          height: 2rem;
+
+          @media screen and (min-width: 900px) {
+            width: 2rem;
+            height: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
