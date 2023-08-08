@@ -4,25 +4,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
-  /*display: grid;*/
-  /*grid-template-rows: auto 1fr auto;*/
-}
-navbar {
-  /*grid-row-start: 1;*/
-  /*grid-row-end: 2;*/
-}
-
-main {
-  flex: 1 0 auto;
-  /*grid-row-start: 2;*/
-  /*grid-row-end: 3;*/
-}
-
-footer {
-  flex-shrink: 0;
-  /*grid-row-start: 3;*/
-  /*grid-row-end: 4;*/
+  /*position: relative;*/
 }
 
 /*.App-logo {*/

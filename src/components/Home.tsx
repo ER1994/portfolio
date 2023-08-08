@@ -3,7 +3,7 @@ import profilePicture from '../assets/profile_picture2.png';
 import {useEffect, useState} from "react";
 import Navbar from "./Navbar";
 
-export function Home() {
+export const Home = () => {
     // const initialHomeMarginTop = 114;
     // const [marginTop, setMarginTop] = useState<number>(initialHomeMarginTop);
 
