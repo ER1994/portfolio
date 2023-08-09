@@ -4,15 +4,17 @@ import '../styles/ContactStyles/ContactStyles.scss'
 export class Contact extends Component {
     render() {
         return (
-            <div className={'contact'}>
+            <div id={'contact'}>
                 <div className={'contact__title'}>
                     <h3>CONTACT</h3>
                     <div className={'contact__title__desc'}>
                         <p>Starting my career, I'm humble, eager, and ready to work. If that sounds good, please contact
-                            me</p>
-                        <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"
-                             xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
-                             className="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet" fill="#000000">
+                            me
+                            <span>
+                            <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg"
+                                 xmlnsXlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                 className="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet"
+                                 fill="#000000">
                             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                             <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
@@ -28,7 +30,9 @@ export class Contact extends Component {
                                 <path fill="#292F33"
                                       d="M34.808 9.627c-.171-.166-1.267.274-2.376-.291c-2.288-1.166-8.07-2.291-11.834.376c-.403.285-2.087.333-2.558.313c-.471.021-2.155-.027-2.558-.313c-3.763-2.667-9.545-1.542-11.833-.376c-1.109.565-2.205.125-2.376.291c-.247.239-.247 1.196.001 1.436c.246.239 1.477.515 1.722 1.232c.247.718.249 4.958 2.213 6.424c1.839 1.372 6.129 1.785 8.848.238c2.372-1.349 2.289-4.189 2.724-5.881c.155-.603.592-.907 1.26-.907s1.105.304 1.26.907c.435 1.691.351 4.532 2.724 5.881c2.719 1.546 7.009 1.133 8.847-.238c1.965-1.465 1.967-5.706 2.213-6.424c.245-.717 1.476-.994 1.722-1.232c.248-.24.249-1.197.001-1.436zm-20.194 3.65c-.077 1.105-.274 3.227-1.597 3.98c-.811.462-1.868.743-2.974.743h-.001c-1.225 0-2.923-.347-3.587-.842c-.83-.619-1.146-3.167-1.265-4.12c-.076-.607-.28-2.09.388-2.318c1.06-.361 2.539-.643 4.052-.643c.693 0 3.021.043 4.155.741c1.005.617.872 1.851.829 2.459zm16.278-.253c-.119.954-.435 3.515-1.265 4.134c-.664.495-2.362.842-3.587.842h-.001c-1.107 0-2.163-.281-2.975-.743c-1.323-.752-1.52-2.861-1.597-3.966c-.042-.608-.176-1.851.829-2.468c1.135-.698 3.462-.746 4.155-.746c1.513 0 2.991.277 4.052.638c.668.228.465 1.702.389 2.309z"></path>
                             </g>
-                        </svg>
+                            </svg>
+                        </span>
+                        </p>
                     </div>
                 </div>
                 <div className={'contact__info'}>

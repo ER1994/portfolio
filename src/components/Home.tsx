@@ -18,7 +18,7 @@ export function Home() {
     // });
 
     return (
-        <div className={'home'}>
+        <div id = {'home'}>
             <div className={'home__presentation'}>
                 <div className={'home__presentation__main'}>
                     <div className={'home__presentation__summary'}>

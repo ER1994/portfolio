@@ -38,6 +38,15 @@ nav {
         letter-spacing: 0.4rem;
         display: block;
       }
+
+      a {
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+          color: rgb(4, 141, 205);
+        }
+      }
     }
     
     #menu--hamburger {
