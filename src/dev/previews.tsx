@@ -6,9 +6,9 @@ import {Navbar} from "../components/Navbar";
 const ComponentPreviews = () => {
     return (
         <Previews palette={<PaletteTree/>}>
-            <ComponentPreview path="/Navbar">
-                <Navbar/>
-            </ComponentPreview>
+            {/*<ComponentPreview path="/Navbar">*/}
+                {/*<Navbar/>*/}
+            {/*</ComponentPreview>*/}
         </Previews>
     );
 };

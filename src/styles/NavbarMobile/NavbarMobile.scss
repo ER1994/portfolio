@@ -1,0 +1,41 @@
+.mobileMenu--closed {
+  display: none;
+}
+
+.mobileMenu--open {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .mobileMenu--Opened__Exit {
+  //  width: 100%;
+  //  text-align: right;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+
+    svg {
+      width: 30px;
+      height: auto;
+    }
+  }
+    .mobileMenu--open__menu {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      font-size: 2rem;
+
+      li a{
+        text-decoration: none;
+        color: black;
+
+        &:hover{
+          color: rgb(4, 141, 205);
+        }
+      }
+    }
+}
