@@ -19,10 +19,9 @@ export const Navbar = ({ /*isOpen,*/ toggleMenu }: { /*isOpen: boolean,*/ toggle
     return (
         <nav style={{marginTop: navbarMarginTop, marginBottom: '20px'}}>
             <ul className={'menu'}>
-                <li><a href='/home'>Home</a></li>
-                {/*<li>About</li>*/}
-                <li><a href='/projects'>Projects</a></li>
-                <li><a href='/contact'>Contact</a></li>
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#contact'>Contact</a></li>
                 <li id={'menu--hamburger'} onClick={toggleMenu}>
                         <svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>

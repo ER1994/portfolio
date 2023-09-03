@@ -3,7 +3,7 @@ import '../styles/ProjectsStyles/projectsStyles.scss';
 import websiteBalance from '../assets/gym_home.jpg';
 const Projects = () => {
     return (
-        <div className={'projectsList'}>
+        <div id='projects' className={'projectsList'}>
             <div className={'project'}>
                 <img src={websiteBalance} alt={'website_balance'}></img>
                 <div className={'description'}>

@@ -4,7 +4,7 @@ import '../styles/ContactStyles/ContactStyles.scss'
 export class Contact extends Component {
     render() {
         return (
-            <div id={'contact'}>
+            <div id='contact'>
                 <div className={'contact__title'}>
                     <h3>CONTACT</h3>
                     <div className={'contact__title__desc'}>
