@@ -1,10 +1,10 @@
 @import "../Animations/profileImage.scss";
 
-.home {
+#home {
   background-color: rgb(249, 244, 241);
   margin: 114px 20px 20px 20px;
   width: calc(100% - 40px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
   @media screen and (min-width: 900px) {
     margin: 114px 20px 20px 20px;
@@ -13,8 +13,8 @@
     box-sizing: border-box;
     height: 580px;
     position: sticky;
-    top: 114px;
-    overflow: hidden;
+    //top: 114px;
+    //overflow: hidden;
   }
 
 
@@ -111,6 +111,15 @@
             width: 1.5rem;
           }
 
+          &:hover {
+            fill: rgb(4, 141, 205);
+            stroke: rgb(4, 141, 205);
+
+            path {
+              fill: rgb(4, 141, 205);
+              stroke: rgb(4, 141, 205);
+            }
+          }
         }
       }
     }

@@ -1,34 +1,65 @@
-.contact {
+#contact {
   background-color: rgb(249, 244, 241);
   margin: 20px;
-  padding: 10px 40px;
+  padding: 10px 20px;
   text-align: left;
   //padding: 10px 40px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  @media screen and (min-width: 600px) {
+    padding: 10px 40px;
+    gap: 2rem;
+  }
+
 
   .contact__title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 0.8rem;
     h3 {
       color: rgb(4, 141, 205);
+      text-align: center;
+      font-size: 1.1rem;
     }
 
     .contact__title__desc {
       display: flex;
       gap: 0.5rem;
+
       p {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+
+        @media screen and (min-width: 450px) {
+          font-size: 0.9rem;
+        }
       }
 
-      svg {
-        width: 1.2rem;
+      span {
+        margin-left: 0.5rem;
+        svg {
+          width: 1rem;
+
+          @media screen and (min-width: 450px) {
+            width: 1.2rem;
+            margin-left: 0.7rem;
+          }
+        }
       }
     }
   }
 
   .contact__info {
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
+
+    @media screen and (min-width: 600px) {
+      gap: 3rem;
+    }
 
     .contact__info__box {
       display: flex;
@@ -37,15 +68,24 @@
 
       .contact__info__box__image {
         background-color: #f9f4f1;
-        width: 3rem;
-        height: 3rem;
+        width: 1.5rem;
+        height: 1.5rem;
         border-radius: 50%;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         display: flex;
         justify-content: center;
 
+        @media screen and (min-width: 450px) {
+          width: 3rem;
+          height: 3rem;
+        }
+
         svg {
-          width: 1.2rem;
+          width: 1rem;
+
+          @media screen and (min-width: 450px) {
+            width: 1.3rem;
+          }
 
         }
       }
@@ -53,18 +93,29 @@
       .contact__info__text {
 
         h3 {
-          font-size: 1rem;
-          //color: rgb(4, 141, 205);
+          font-size: 0.8rem;
+
+          @media screen and (min-width: 450px) {
+            font-size: 1rem;
+          }
         }
 
         p {
-          font-size: 0.8rem;
+          font-size: 0.7rem;
+
+          @media screen and (min-width: 450px) {
+            font-size: 0.8rem;
+          }
         }
 
         a {
-          font-size: 0.8rem;
+          font-size: 0.7rem;
           text-decoration: none;
           color: black;
+
+          @media screen and (min-width: 450px) {
+            font-size: 0.8rem;
+          }
 
           &:hover {
             color: rgb(4, 141, 205);
