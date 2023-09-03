@@ -8,6 +8,7 @@ const Projects = () => {
                 <img src={websiteBalance} alt={'website_balance'}></img>
                 <div className={'description'}>
                     <h4>GYM BALANCE</h4>
+                    <p>A gym website serves detailed information on workout programs, membership packages, and instructor profiles. Additionally, the site offers a dynamic class schedule.</p>
                     <div className={'stack'}>
                         <p>React</p>
                         <p>Tailwind CSS</p>
