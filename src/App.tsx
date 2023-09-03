@@ -5,6 +5,7 @@ import {Home} from "./components/Home";
 import {Contact} from "./components/Contact";
 import {Footer} from "./components/Footer";
 import {NavbarMobile} from "./components/NavbarMobile";
+import Projects from "./components/Projects";
 
 function App() {
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -18,6 +19,7 @@ function App() {
             <NavbarMobile isOpen={isMobileMenuOpen} toggleMenu={toggleMobileMenu}></NavbarMobile>
             <main>
                 <Home></Home>
+                <Projects></Projects>
                 <Contact></Contact>
             </main>
             <Footer></Footer>

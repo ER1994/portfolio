@@ -111,6 +111,15 @@
             width: 1.5rem;
           }
 
+          &:hover {
+            fill: rgb(4, 141, 205);
+            stroke: rgb(4, 141, 205);
+
+            path {
+              fill: rgb(4, 141, 205);
+              stroke: rgb(4, 141, 205);
+            }
+          }
         }
       }
     }
