@@ -18,8 +18,7 @@ export function NavbarMobile({isOpen, toggleMenu}: { isOpen: boolean, toggleMenu
             </div>
             <ul className={'mobileMenu--open__menu'}>
                 <li><a href={'#home'} onClick={toggleMenu}>Home</a></li>
-                <li>About</li>
-                <li>Projects</li>
+                <li><a href={'#projects'} onClick={toggleMenu}>Projects</a></li>
                 <li><a href={'#contact'} onClick={toggleMenu}>Contact</a></li>
             </ul>
         </nav>
