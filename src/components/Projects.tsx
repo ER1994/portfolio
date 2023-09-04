@@ -25,7 +25,7 @@ const Projects = () => {
                                 </g>
                             </svg>
                         </a>
-                        <a href='https://ewagym.netlify.app/' target='_blank'>
+                        <a href='https://ewagym.netlify.app' target='_blank'>
                             Live Demo
                         </a>
                     </div>
