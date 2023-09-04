@@ -1,8 +1,8 @@
 .projectsList {
   background-color: rgb(249, 244, 241);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  margin: 20px;
-  width: calc(100% - 40px);
+  margin: 20px 0;
+  width: 100%;
 
   .project {
     display: flex;
