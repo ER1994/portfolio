@@ -2,12 +2,12 @@
 
 #home {
   background-color: rgb(249, 244, 241);
-  margin: 0 0 0 0;
+  margin: 96px 0 0 0;
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
   @media screen and (min-width: 900px) {
-    margin: 114px 0 0 0;
+    margin: 96px 0 0 0;
     display: flex;
     justify-content: center;
     box-sizing: border-box;

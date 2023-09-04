@@ -3,18 +3,18 @@ import profilePicture from '../assets/profile_picture2.png';
 import {useEffect, useState} from "react";
 
 export function Home() {
-    const initialHomeMarginTop = 114;
-    const [marginTop, setMarginTop] = useState<number>(initialHomeMarginTop);
+    // const initialHomeMarginTop = 114;
+    // const [marginTop, setMarginTop] = useState<number>(initialHomeMarginTop);
 
-    const handleScroll = () => {
-        const newMarginTop = Math.max(initialHomeMarginTop, 0);
-        setMarginTop(newMarginTop);
-    };
+    // const handleScroll = () => {
+    //     const newMarginTop = Math.max(initialHomeMarginTop, 0);
+    //     setMarginTop(newMarginTop);
+    // };
 
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll );
-        return () => window.removeEventListener('scroll', handleScroll);
-    });
+    // useEffect(() => {
+    //     window.addEventListener('scroll', handleScroll );
+    //     return () => window.removeEventListener('scroll', handleScroll);
+    // });
 
     return (
         <div id = {'home'}>

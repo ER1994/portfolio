@@ -2,22 +2,22 @@ import {useEffect, useState} from "react";
 import "../styles/NavbarStyles/navbarStyles.scss"
 
 export const Navbar = ({ /*isOpen,*/ toggleMenu }: { /*isOpen: boolean,*/ toggleMenu: () => void }) => {
-    const initialNavbarMarginTop = 20;
-    const [navbarMarginTop, setNavbarMarginTop] = useState<number>(initialNavbarMarginTop);
+    // const initialNavbarMarginTop = 20;
+    // const [navbarMarginTop, setNavbarMarginTop] = useState<number>(initialNavbarMarginTop);
 
-    const handleScroll = () => {
-        const offset = window.scrollY;
-        const newNavbarMarginTop = Math.max(initialNavbarMarginTop - offset, 0);
-        setNavbarMarginTop(newNavbarMarginTop);
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    });
+    // const handleScroll = () => {
+    //     const offset = window.scrollY;
+    //     const newNavbarMarginTop = Math.max(initialNavbarMarginTop - offset, 0);
+    //     setNavbarMarginTop(newNavbarMarginTop);
+    // };
+    //
+    // useEffect(() => {
+    //     window.addEventListener('scroll', handleScroll);
+    //     return () => window.removeEventListener('scroll', handleScroll);
+    // });
 
     return (
-        <nav style={{marginTop: navbarMarginTop, marginBottom: '20px'}}>
+        <nav>
             <ul className={'menu'}>
                 <li><a href='#home'>Home</a></li>
                 <li><a href='#projects'>Projects</a></li>
